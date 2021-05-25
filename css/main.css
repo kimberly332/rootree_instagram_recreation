@@ -496,7 +496,7 @@
   }
   .main-header input[type=text] {
     outline: none;
-    background: url("../../../images/icon/search-solid.png") no-repeat 5%;
+    background: url("../images/icon/search-solid.png") no-repeat 5%;
     background-size: 15px 15px;
     font-family: "proxima-nova", sans-serif;
     font-size: 1em;
