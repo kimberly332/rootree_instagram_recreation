@@ -1,0 +1,27 @@
+.grid-container {
+    background-color: #F9F9F9;
+    // background-image: url("../images/background/cute-pattern.png");
+    background-image: url("../images/background/social-media-pattern.png");
+    background-size: 500px 500px;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400; 
+    font-style: normal;
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 7fr;
+    gap: 0px 30px;
+}
+.laptop-header-bg {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.white {
+    color: #fff;
+}
+

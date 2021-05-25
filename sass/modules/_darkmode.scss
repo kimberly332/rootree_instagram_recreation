@@ -1,0 +1,99 @@
+// Darkmode Çlass
+.darkmode {
+    background-color: #121212;
+    background-image: url("../images/background/social-media-pattern-darkmode.png");
+    background-size: 500px 500px;
+    color: white;
+
+    .main-header {
+        background-color: #000000;
+
+        .logo {
+            
+            img {
+                filter: invert(100%);
+            }
+        }
+
+        // Search Box
+        input[type=text] {
+            background-color: #F9F9F9;
+        }
+    }
+
+    .laptop-header-bg {
+        background-color: #000000;
+    }
+
+    // Follow, Suggested, More Btns
+    .btns {
+    
+        .more-btn {
+            color: #fff;
+        }
+    }
+
+    // Profile Description
+    .profile-description {
+
+        p:nth-child(3), p:nth-child(4), p:nth-child(5) {
+            color: #fff;
+        }
+
+        .url {
+            color: #AADCFF;
+        }
+    }
+
+    // Posts, Followers, Following
+    .pff {
+        color: #828282;
+
+        ul {
+            background-color: #F7F674;
+
+            li {
+                color: #FF6386;
+            }
+
+            .gray {
+                color: #828282;
+            }
+        }
+    }
+
+    .main-nav {
+        
+        ul {
+            background-color: #FF6386;
+    
+            li {
+    
+                i {
+                    color: #7D54B6;
+                }
+    
+                i:hover {
+                    color: #F7F674;
+                }
+            }
+        }
+    }
+
+    .posts-tagged {
+        padding: 0 0.813em; // 13px
+    
+        ul {
+        
+            li {
+
+                a {
+
+                    .active {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

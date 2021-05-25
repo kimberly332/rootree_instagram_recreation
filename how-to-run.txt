@@ -1,0 +1,9 @@
+Method 1: live demo
+
+Click -> https://kimberly332.github.io/technical_challenge/
+
+Method 2: download to local environment
+
+Download the whole folder and open `index.html` in browser.
+
+Note: If scss is changed, re-run `sass --watch sass:css` to compile into css.

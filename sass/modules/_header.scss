@@ -1,0 +1,31 @@
+.main-header {
+    height: 3.125em; // 50px
+    padding: 0 0.813em; // 13px
+    grid-column: 1/4;
+    grid-row: 1/2;
+    background-color: #FFFFFF;
+    border-bottom: #D6D6D6 solid 0.5px;
+
+    .logo {
+        float: left;
+
+        img {
+            width: 7em;
+            margin-top: 0.3em; // 4px
+        }
+    }
+    
+    .account-avatar {
+        float: right;
+
+        img {
+            width: 2.5em; // 40px
+            margin-top: 0.3em;
+        }
+    }
+
+    // Search Box
+    .search-box {
+        display: none;
+    }
+}

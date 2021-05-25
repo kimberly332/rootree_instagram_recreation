@@ -1,0 +1,108 @@
+.posts-tagged {
+    margin-top: 0.7em;
+    grid-column: 1/4;
+    grid-row: 6/7;
+
+    ul {
+        text-align: center;
+        
+        li {
+            display: inline;
+            margin: 0 2em;
+            transition: ease-in-out .2s;
+
+            a {
+                text-decoration: none;
+                font-size: 2em;
+
+                i {
+                    color: #979797;
+                }
+
+                .active {
+                    color: #008BEF;
+                }
+
+                p {
+                    display: none;
+                }
+            }
+        }
+
+        li:hover {
+            opacity: 0.8;
+        }
+    }
+
+    // Posts Gallery
+    .post-div {
+        width: 100%;
+        margin: 0.7em auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+        // Individual Post
+        .post {
+            position: relative;
+            display: inline-block;
+            text-align: center;
+            align-items: center;
+
+            a {
+
+                img {
+                    width: 98%;
+                    transition: ease-in-out .2s;
+                }
+
+                img:hover {
+                    filter: brightness(60%);
+                }
+            }
+
+            ul {
+                display: none;
+            }
+        }
+
+        // Display Like and Comments Icons when Hover
+        .post:hover {
+            cursor: pointer;
+
+            a {
+
+                img{
+                    filter: brightness(60%);
+                }
+            }
+
+            ul {
+                display: flex;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                text-align: center;
+                color: white;
+
+                li {
+                    font-size: 1em;
+                    font-weight: 500;
+                    line-height: 1.5em;
+                    margin: 0 1em;
+
+                    img {
+                        margin: 0 5px;
+                    }
+                }
+
+                li > *{
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+}

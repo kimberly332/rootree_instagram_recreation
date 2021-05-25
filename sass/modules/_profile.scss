@@ -1,0 +1,112 @@
+.profile-avatar {
+    padding: 0 0.813em; // 13px
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+    img {
+        width: 5.938em; // 95px
+        margin-top: 0.5em;
+    }
+}
+
+// Display Name / ID
+.name {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    align-self: start;
+
+    h1 {
+        font-size: 1.8em;
+        margin-top: 0.5em;
+    }
+}
+
+// Follow, Suggested, More Btns
+.btns {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    align-self: center;
+    white-space: nowrap;
+    margin-top: 2em; // 32px
+
+    .follow-btn, .suggested-btn {
+        text-decoration: none;
+        padding: 0.313em 0.938em; // 5px 15px
+        margin-right: 0.188em;
+        background-color: #1994ef;
+        color: #fff;
+        border-radius: 3px;
+        font-weight: 600;
+        transition: ease-in-out .2s;
+    }
+
+    .suggested-btn {
+        padding: 0.313em 0.625em; // 5px 10px
+    }
+
+    .more-btn {
+        color: #222222;
+        font-size: 1.250em;
+        transition: ease-in-out .2s;
+    }
+
+    .follow-btn:hover, .suggested-btn:hover, .more-btn:hover {
+        opacity: 0.8;
+    }
+}
+
+// Profile Description
+.profile-description {
+    padding: 0 0.813em; // 13px
+    margin-top: 0.5em;
+    grid-column: 1/3;
+    grid-row: 3/4;
+    white-space: nowrap;
+
+    h2 {
+        font-weight: 600;
+    }
+    
+    p {
+        line-height: 1.563em; // 25px
+    }
+
+    p:nth-child(3), p:nth-child(4), p:nth-child(5) {
+        color: #222222;
+    }
+
+    .url {
+        text-decoration: none;
+        color: #00315E;
+        font-weight: 600;
+        transition: ease-in-out .2s;
+    }
+
+    .url:hover {
+        text-decoration: underline;
+    }
+}
+
+// Posts, Followers, Following
+.pff {
+    padding: 0 0.813em; // 13px
+    margin-top: 1em;
+    grid-column: 1/4;
+    grid-row: 4/5;
+
+    ul {
+        background-color: #FF6386;
+        border-radius: 5px;
+        height: 55px;
+        margin-right: 3em;
+        text-align: center;
+        white-space: nowrap;
+
+        li {
+            color: #F7F674;
+            display: inline-block;
+            margin: 0.45em 1.3em;
+            line-height: 20px;
+        }
+    }
+}
