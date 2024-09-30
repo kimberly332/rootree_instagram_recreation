@@ -5,7 +5,7 @@
 
 ### Method 1: live demo
 
-Click -> [:link:](https://kimberly332.github.io/technical_challenge/)
+Click -> [:link:](https://kimberly332.github.io/rootree_instagram_recreation/)
 
 ### Method 2: download to local environment
 
